@@ -292,18 +292,4 @@ public class GamerHandler {
     }
     return null;
   }
-
-  public void killjews(MessageChannel channel, int arg) {
-    double rand = Double.parseDouble(Double.toString(Math.random()).substring(3, 4));
-    channel
-        .sendMessage(
-            "Genocide Request Confirmed\r\n"
-                + "**"
-                + rand
-                + " Intercontinental Ballistic Missiles Have Been Deployed to Israel**\r\n"
-                + "Estimated Death Count: **__"
-                + (arg * 921.4 * rand)
-                + "__**")
-        .queue();
-  }
 }
