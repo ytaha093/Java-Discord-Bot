@@ -53,9 +53,6 @@ public class CommandHandler extends ListenerAdapter {
       case ".bet":
         betgame.bet(member, channel, arg);
         break;
-      case ".killjews":
-        betgame.killjews(channel, arg);
-        break;
       case ".bal":
         betgame.ballance(member, channel);
         break;
