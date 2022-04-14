@@ -6,7 +6,7 @@ import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 
 public class Main<E extends Comparable<E>> {
-
+ 
 	public static void main(String[] args) {
 
 		run();
